@@ -1,0 +1,123 @@
+.verify {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: #FEF0F2;
+}
+
+.intro {
+    /* position: absolute; */
+    padding: 50px;
+    width: 45%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.intro-text1 {
+height: 48px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+letter-spacing: -0.5px;
+color: #1A1A1A;
+}
+
+.intro-text2 {
+height: 50px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+letter-spacing: 0.3px;
+color: #595959;
+}
+
+.images {
+    margin-top: 30px;
+}
+
+.images:last-child {
+    background: #F8F8F6;
+    border-radius: 20px;
+    padding: 15px 15px 15px 0px;
+}
+
+.form {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 40px;
+    gap: 50px;
+    width: 500px;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(102, 102, 102, 0.2);
+    border-radius: 12px;
+}
+
+.text1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.2px;
+    color: #1A1A1A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 5px;
+}
+
+.text2 {
+    margin-bottom: 25px;
+}
+
+#user,
+#pass {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    gap: 16px;
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #1A1A1A;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 45px;
+    text-decoration: none;
+    background: #1CC578;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    flex: none;
+    order: 1;
+}

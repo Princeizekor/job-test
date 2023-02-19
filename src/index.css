@@ -1,0 +1,12 @@
+@import url('./styles/home.css');
+@import url('./styles/verification.css');
+@import url('./styles/Navbar.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    max-width: 1440px;
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
