@@ -32,3 +32,30 @@
     width: 300px;
     height: 500px;
 }
+
+@media screen and (max-width: 767px) {
+    .home {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .company {
+        flex-direction: column;
+        padding: 30px;
+    }
+    
+    .left-page {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .comp {
+        width: 100%;
+    }
+    
+    .right-page {
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+}
